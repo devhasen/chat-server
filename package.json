@@ -1,0 +1,9 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "WebSocket chat server with rooms and history",
+  "main": "dist/index.js",
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "dependencies": { "ws": "^8.17.0" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0", "@types/ws": "^8.5.0" }
+}
